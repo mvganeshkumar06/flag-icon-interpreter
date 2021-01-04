@@ -6,6 +6,10 @@
   font-size: small;
 }
 
+a{
+  text-decoration: none;
+}
+
 #container {
   min-height: 100vh;
   display: flex;
@@ -87,6 +91,10 @@ footer {
 #iconAttribution {
   color: rgb(162, 0, 255);
   margin: 5px 0px;
+}
+
+#iconAttribution:hover{
+  text-decoration: underline;
 }
 
 #socialFooter {
